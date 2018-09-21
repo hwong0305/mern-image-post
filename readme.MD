@@ -13,6 +13,8 @@ The purpose of the application is to explore the usage of Google's Firebase Auth
 
 ## Test Application
 
+A Heroku demo of this application is hosted [here](a4ccb33bc8d2c3d29fbecf2f53e583798babd61c)!
+
 This application uses the MERN stack combined with Firebase (for fun) to build a simple application that emulates instagram.
 
 To run the application locally, `git clone` into a local directory.
@@ -1952,4 +1954,4 @@ Finally, setup the package.json for the application to run both the back and fro
 }
 ```
 
-The app is completed! 
+The app is completed!
