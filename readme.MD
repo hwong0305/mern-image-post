@@ -1955,3 +1955,4 @@ Finally, setup the package.json for the application to run both the back and fro
 ```
 
 The app is completed!
+
