@@ -38,8 +38,7 @@ Layout for the tutorial.
 1. [Setup Directory](#1.-Setup-the-Directory)
 2. [Setup Back End](#2.-Setup-the-Server-directory)
 3. [Setup Front End](#3.-Setup-the-Frontend)
-4. Connect Backend to Frontend
-5. Deploying to Heroku
+4. [Connect Backend to Frontend](#4.-Connect-the-Backend-to-the-Frontend)
 
 ### 1. Setup the Directory
 
