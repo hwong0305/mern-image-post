@@ -66,6 +66,9 @@ module.exports = {
     async logout(req, res) {
         try {
             await firebase.auth().signOut();
+            res.send({
+                success: true
+            });
         } catch (err) {
             res.status(500).send({
                 message: 'An error occured while signing out'

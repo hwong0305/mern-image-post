@@ -1827,7 +1827,7 @@ import axios from 'axios';
 
 export default () =>
     axios.create({
-        baseURL: 'http://localhost:8081'
+        baseURL: '/'
     });
 ```
 
@@ -1839,19 +1839,19 @@ import Api from './Api';
 
 export default {
     login(email, password) {
-        return Api().post('http://localhost:8081/api/login', {
+        return Api().post('/api/login', {
             email,
             password
         });
     },
     register(email, password) {
-        return Api().post('http://localhost:8081/api/register', {
+        return Api().post('/api/register', {
             email,
             password
         });
     },
     logout() {
-        return Api().get('http;//localhost:8081/api/logout');
+        return Api().get('/api/logout');
     }
 };
 ```
@@ -1886,6 +1886,34 @@ export default {
         return Api().put('/api/post/update', submission);
     }
 };
+```
+
+Add a proxy to the client package.json file so it runs on both production and dev.
+
+```JSON
+{
+    "name": "client",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@material-ui/core": "^3.0.3",
+        "@material-ui/icons": "^3.0.1",
+        "axios": "^0.18.0",
+        "react": "^16.5.1",
+        "react-dom": "^16.5.1",
+        "react-redux": "^5.0.7",
+        "react-router-dom": "^4.3.1",
+        "react-scripts": "1.1.5",
+        "redux": "^4.0.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "proxy": "http://localhost:8081"
+}
 ```
 
 Now the app is fully functional.

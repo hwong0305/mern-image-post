@@ -2,18 +2,18 @@ import Api from './Api';
 
 export default {
     login(email, password) {
-        return Api().post('http://localhost:8081/api/login', {
+        return Api().post('api/login', {
             email,
             password
         });
     },
     register(email, password) {
-        return Api().post('http://localhost:8081/api/register', {
+        return Api().post('api/register', {
             email,
             password
         });
     },
     logout() {
-        return Api().get('http;//localhost:8081/api/logout');
+        return Api().get('api/logout');
     }
 };
