@@ -11,6 +11,32 @@ This application is built based off Traversy's Media MERN stack video series wit
 
 The purpose of the application is to explore the usage of Google's Firebase Authentication system on the back end while using React as the frontend library.
 
+## Screenshots
+
+### Homepage
+
+![homepage](/screenshots/homepage.png 'Homepage')
+
+### Login Page
+
+![login](/screenshots/login.png 'Login')
+
+### Post Info
+
+![post](/screenshots/post.png 'Post')
+
+### Register Page
+
+![register](/screenshots/register.png 'Register')
+
+### Create Post
+
+![Create Post](/screenshots/createPost.png 'Create a Post')
+
+### Unauthorized
+
+![Unauthorized](screenshots/unauthorized.png 'Unauthorized Image')
+
 ## Test Application
 
 A Heroku demo of this application is hosted [here](a4ccb33bc8d2c3d29fbecf2f53e583798babd61c)!
