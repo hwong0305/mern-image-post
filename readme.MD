@@ -2,10 +2,10 @@
 
 ## Table of Contents
 
-1. [Description](#Description)
-2. [Functionaltiy](#Functionality)
-3. [Screenshots](#Screenshots)
-4. [Tutorial](#Tutorial)
+1. [Description](#description)
+2. [Functionaltiy](#functionality)
+3. [Screenshots](#screenshots)
+4. [Tutorial](#tutorial)
 
 ## Description
 
